@@ -4,15 +4,21 @@ var accountPassword = "12345";
 accountCity = "Kolkata";
 let accountState;
 
-console.table([accountId, accountEmail,accountPassword,accountCity])
+console.table([accountId, accountEmail, accountPassword, accountCity]);
 // accountId = 2 // Not allowed: TypeError: Assignment to constant variable.
 
 accountEmail = "hc@hc.com";
-accountPassword = "212121"
-accountCity = "Bardhaman"
+accountPassword = "212121";
+accountCity = "Bardhaman";
 
-console.log("New data")
-console.table([accountId, accountEmail,accountPassword,accountCity, accountState])
+console.log("New data");
+console.table([
+  accountId,
+  accountEmail,
+  accountPassword,
+  accountCity,
+  accountState,
+]);
 
 /*
 Prefer not to use var
